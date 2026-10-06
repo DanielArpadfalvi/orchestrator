@@ -7,6 +7,8 @@
 - Futó feladatok: **Craterpult** `t7.2-paywall` merge a main-re (M6-ütközések feloldása) → utána M8.
 - **Munkamegosztás:** a Pathlingset (T2.1-től) egy külön lokális session viszi (cwd `C:\Claude projects\Pathlings`); az orkesztrátor nem pushol a Pathlings main-re, a dashboardot a Pathlings `docs/TASKS.md` + `HANDOFF.md` alapján szinkronizálja.
 - Megjegyzés: az agent-definíciók (`.claude/agents/`) csak a branch checkoutja utáni új sessionben töltődnek be; addig `general-purpose` agent kapja a szerep-leírást.
+- **Pathlings:** T2.1 Renderer kész (`aa00679`, 327 unit + 7 e2e zöld) → T2.2 Camera (Pathlings-session).
+- **Craterpult:** T7.2 paywall a main-en (`73695ae`, 243 unit + 29 e2e). M8: store-szövegek/weboldal/checklisták kész (commitra vár), screenshot-generátor fut. Tulajdonosi teendő: `craterpult-site` repó + Pages, `craterpult.support@gmail.com` postafiók.
 - Blastyard (#4) repó még nem létezik – a tulajdonosnak kell létrehoznia.
 
 ---

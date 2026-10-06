@@ -19,7 +19,7 @@ Ez a repó egy **orkesztrátor-agent** utasításait és állapotát tartalmazza
 - Determinisztikus `src/core` (seedelt RNG, fix tick), `src/platform` mögé zárt natív API-k, EN + HU i18n.
 - Natív Android/iOS build csak GitHub Actions-ben (a konténerből a `dl.google.com` tiltott).
 - Üzleti modell (tulajdonosi döntés + `docs/monetization-research-2026-10.md`): **a cél a minél több játékos, nem a bevétel.** Mindig ingyenes letöltés, teljes értékű ingyenes mag, egyszeri nem fogyó feloldás (≈$2,99, max $3,99–4,99) + opcionális supporter/kozmetikum; nincs reklám, energia, valuta, fogyóeszköz, pay-to-win. Party-játéknál az alapjáték teljesen ingyenes. Restore Purchases, iOS Family Sharing, „Data Not Collected”. A játékonkénti részletek a projekt `docs/PLAN.md`-jében.
-- Csak nagyon fontos, visszafordíthatatlan vagy a tulajdonos fiókját érintő döntésnél kérdezz (pl. repo létrehozása – ezt a session nem tudja, a tulajdonos csinálja).
+- Csak nagyon fontos, visszafordíthatatlan vagy a tulajdonos fiókját érintő döntésnél kérdezz. Repót a session nem tud létrehozni: ha nincs meg, dolgozz helyben a `C:\Claude projects\<Munkacím>` mappában, a tulajdonos utólag tölti fel.
 
 ## Referencia-projektek
 - `DanielArpadfalvi/swaplight` – kész 1.0-jelölt; minta a CI-re (`ci.yml`, `android.yml`, `ios.yml`), Capacitor-héjra, RevenueCat-paywallra, store-anyagokra (`docs/RELEASE.md`, `docs/*-CHECKLIST.md`, `docs/store-privacy-answers.md`, `scripts/make-assets.ts`, `scripts/store-frames.ts`), weboldalra (`docs/site/`).

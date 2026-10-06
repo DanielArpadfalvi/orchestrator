@@ -4,7 +4,7 @@ Egyszerre egy projekt aktív. Minden fázis végén: commit + push a projekt rep
 
 ## F0 – Kiválasztás & repo
 - A `queue.md` első nem kész tétele. Munkacím: eredeti, nem védjegy, rövid, store-kereshető.
-- Repo: `DanielArpadfalvi/<Munkacím>` (publikus – a macOS-runner percei publikus repóban ingyenesek). A session **nem tud repót létrehozni** → ha nincs meg, kérd a tulajdonostól, és addig dolgozz helyben (`/home/user/<munkacím>`), push később.
+- Repo: `DanielArpadfalvi/<Munkacím>` (publikus – a macOS-runner percei publikus repóban ingyenesek). A session **nem tud repót létrehozni** → ha nincs meg, **ne várj és ne kérdezz rá újra**: dolgozz helyben (`C:\Claude projects\<Munkacím>`, `git init`, normál commitok); a tulajdonos utólag hozza létre a repót és tölti fel (tulajdonosi döntés, 2026-10-06). A `STATUS.md`-be és a dashboard `needsInput`-ba írd be, hogy a repó kell.
 - Dashboard-szinkron: `python3 scripts/tasks2dash.py <projekt>/docs/TASKS.md > x.json`, majd `ArtifactData update` `file_path`-szal.
 - Dashboard-dokumentum létrehozása `projects/<id>` alatt (`state: "planning"`).
 

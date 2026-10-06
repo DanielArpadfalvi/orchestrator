@@ -4,7 +4,8 @@
 
 - A felhős Pathlings- és Craterpult-sessionök leálltak; **mindkettőt ez a lokális orkesztrátor-session viszi tovább párhuzamosan** (háttér-agentekkel, külön Playwright-portokon: Pathlings 4391, Craterpult 4411). Lokális klónok: `C:\Claude projects\Pathlings`, `C:\Claude projects\Craterpult`.
 - Swaplight: 1.0-jelölt, a tulajdonosi store-lépésekre vár; nincs aktív munka.
-- Futó feladatok: **Craterpult** `t7.2-paywall` merge a main-re (M6-ütközések feloldása) → utána M8; **Pathlings** T2.1 Renderer.
+- Futó feladatok: **Craterpult** `t7.2-paywall` merge a main-re (M6-ütközések feloldása) → utána M8.
+- **Munkamegosztás:** a Pathlingset (T2.1-től) egy külön lokális session viszi (cwd `C:\Claude projects\Pathlings`); az orkesztrátor nem pushol a Pathlings main-re, a dashboardot a Pathlings `docs/TASKS.md` + `HANDOFF.md` alapján szinkronizálja.
 - Megjegyzés: az agent-definíciók (`.claude/agents/`) csak a branch checkoutja utáni új sessionben töltődnek be; addig `general-purpose` agent kapja a szerep-leírást.
 - Blastyard (#4) repó még nem létezik – a tulajdonosnak kell létrehoznia.
 

@@ -18,7 +18,7 @@ Ez a repó egy **orkesztrátor-agent** utasításait és állapotát tartalmazza
 - Stack: Vite + TypeScript strict + PixiJS v8 + Preact + Capacitor 8 + Vitest + Playwright (Chromium: `/opt/pw-browsers`, soha ne `playwright install`). Kódból generált grafika és hang.
 - Determinisztikus `src/core` (seedelt RNG, fix tick), `src/platform` mögé zárt natív API-k, EN + HU i18n.
 - Natív Android/iOS build csak GitHub Actions-ben (a konténerből a `dl.google.com` tiltott).
-- Üzleti modell **játékonként** dől el (ingyenes + egyszeri „Teljes verzió” RevenueCattel, vagy fizetős letöltés), indoklással a projekt `docs/PLAN.md`-jében.
+- Üzleti modell (tulajdonosi döntés + `docs/monetization-research-2026-10.md`): **a cél a minél több játékos, nem a bevétel.** Mindig ingyenes letöltés, teljes értékű ingyenes mag, egyszeri nem fogyó feloldás (≈$2,99, max $3,99–4,99) + opcionális supporter/kozmetikum; nincs reklám, energia, valuta, fogyóeszköz, pay-to-win. Party-játéknál az alapjáték teljesen ingyenes. Restore Purchases, iOS Family Sharing, „Data Not Collected”. A játékonkénti részletek a projekt `docs/PLAN.md`-jében.
 - Csak nagyon fontos, visszafordíthatatlan vagy a tulajdonos fiókját érintő döntésnél kérdezz (pl. repo létrehozása – ezt a session nem tudja, a tulajdonos csinálja).
 
 ## Referencia-projektek

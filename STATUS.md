@@ -8,7 +8,7 @@
 - **Munkamegosztás:** a Pathlingset (T2.1-től) egy külön lokális session viszi (cwd `C:\Claude projects\Pathlings`); az orkesztrátor nem pushol a Pathlings main-re, a dashboardot a Pathlings `docs/TASKS.md` + `HANDOFF.md` alapján szinkronizálja.
 - Megjegyzés: az agent-definíciók (`.claude/agents/`) csak a branch checkoutja utáni új sessionben töltődnek be; addig `general-purpose` agent kapja a szerep-leírást.
 - **Session-térkép (2026-10-06 17:15):** Pathlings → „Pathlings” session (T2.1 Renderer, T2.2 Camera kész, `a85fae2`; T2.3 folyik). Swaplight → „Swaplight” session. Craterpult → „Craterpult terv fejlesztése” session (M9-et kezdte) + az orkesztrátor T8.3 agentje (worktree `Craterpult-t83`); a T8.3 merge után a Craterpult teljesen a Craterpult-sessioné. Az orkesztrátor: STATUS/queue/dashboard könyvelés, koordináció.
-- **Craterpult:** M8 T8.1 + T8.2 kész a main-en (`bf8e03a`, v1.0.0, 248 unit + 35 e2e). T8.3 fut. `craterpult-site` repó + support-postafiók kész (tulajdonos); hátravan: GitHub Pages bekapcsolása (privacy URL még 404), RevenueCat. M9 backend-választás tulajdonosi döntés.
+- **Craterpult:** M8 kód kész (T8.1–T8.3 a main-en, `8a90b5c`, v1.0.0, 259 unit + 37 e2e). Weboldal élő, postafiók kész. Hátravan (tulajdonos): RevenueCat + eszközös sandbox vásárlás. A T8.3 merge után a Craterpult teljesen a Craterpult-sessioné (M9 a `Craterpult-m9` worktree-ben); az orkesztrátor nem pushol oda.
 - **Blastyard (#4):** repó létrehozva (tulajdonos), klón: `C:\Claude projects\Blastyard`. F1 tervezés (game-designer agent) fut.
 
 ---

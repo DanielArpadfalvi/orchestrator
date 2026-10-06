@@ -5,6 +5,7 @@ Egyszerre egy projekt aktív. Minden fázis végén: commit + push a projekt rep
 ## F0 – Kiválasztás & repo
 - A `queue.md` első nem kész tétele. Munkacím: eredeti, nem védjegy, rövid, store-kereshető.
 - Repo: `DanielArpadfalvi/<Munkacím>` (publikus – a macOS-runner percei publikus repóban ingyenesek). A session **nem tud repót létrehozni** → ha nincs meg, kérd a tulajdonostól, és addig dolgozz helyben (`/home/user/<munkacím>`), push később.
+- Dashboard-szinkron: `python3 scripts/tasks2dash.py <projekt>/docs/TASKS.md > x.json`, majd `ArtifactData update` `file_path`-szal.
 - Dashboard-dokumentum létrehozása `projects/<id>` alatt (`state: "planning"`).
 
 ## F1 – Tervezés (`game-designer` agent)

@@ -23,4 +23,4 @@ Ez a repó egy **orkesztrátor-agent** utasításait és állapotát tartalmazza
 
 ## Referencia-projektek
 - `DanielArpadfalvi/swaplight` – kész 1.0-jelölt; minta a CI-re (`ci.yml`, `android.yml`, `ios.yml`), Capacitor-héjra, RevenueCat-paywallra, store-anyagokra (`docs/RELEASE.md`, `docs/*-CHECKLIST.md`, `docs/store-privacy-answers.md`, `scripts/make-assets.ts`, `scripts/store-frames.ts`), weboldalra (`docs/site/`).
-- `DanielArpadfalvi/Craterpult` – folyamatban (másik munkamenet dolgozik rajta, ne nyúlj hozzá).
+- `DanielArpadfalvi/Craterpult` – folyamatban; 2026-10-06 óta a lokális orkesztrátor viszi a Pathlings mellett párhuzamosan (lásd `STATUS.md`).

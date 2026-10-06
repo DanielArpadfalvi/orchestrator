@@ -7,7 +7,7 @@ Az orkesztrátor mindig a **legelső nem kész** tétellel foglalkozik; egyszerr
 | # | Ötlet | Munkacím | Repo | Állapot |
 |---|---|---|---|---|
 | 1 | Panel-swap versus puzzle + roguelite futam | Swaplight | `DanielArpadfalvi/swaplight` | [x] (másik munkamenet) |
-| 2 | Aszinkron artillery (Worms-szerű) | Craterpult | `DanielArpadfalvi/Craterpult` | [~] (másik munkamenet) |
+| 2 | Aszinkron artillery (Worms-szerű) | Craterpult | `DanielArpadfalvi/Craterpult` | [~] (M8 felé, lokális orkesztrátor) |
 | 3 | Prémium Lemmings-szerű + pályaszerkesztő | Pathlings | `DanielArpadfalvi/Pathlings` | [~] |
 | 4 | Bomberman-szerű party: 1 telefon / botok | Blastyard | `DanielArpadfalvi/Blastyard` | [ ] |
 | 5 | Egy-tableten 4 fős top-down racer | Tinytrack | `DanielArpadfalvi/Tinytrack` | [ ] |

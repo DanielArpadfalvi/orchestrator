@@ -9,7 +9,7 @@ Az orkesztrátor mindig a **legelső nem kész** tétellel foglalkozik; egyszerr
 | 1 | Panel-swap versus puzzle + roguelite futam | Swaplight | `DanielArpadfalvi/swaplight` | [x] (másik munkamenet) |
 | 2 | Aszinkron artillery (Worms-szerű) | Craterpult | `DanielArpadfalvi/Craterpult` | [~] (M8 felé, lokális orkesztrátor) |
 | 3 | Prémium Lemmings-szerű + pályaszerkesztő | Pathlings | `DanielArpadfalvi/Pathlings` | [~] |
-| 4 | Bomberman-szerű party: 1 telefon / botok | Blastyard | `DanielArpadfalvi/Blastyard` | [~] (F1 tervezés) |
+| 4 | Bomberman-szerű party: 1 telefon / botok | Blastyard | `DanielArpadfalvi/Blastyard` | [~] (M0) |
 | 5 | Egy-tableten 4 fős top-down racer | Tinytrack | `DanielArpadfalvi/Tinytrack` | [ ] |
 | 6 | Rampart-szerű „építs-lőj” versus | Mortarwall | `DanielArpadfalvi/Mortarwall` | [ ] |
 | 7 | Touch-first automatizálós Factorio-lite | Cogfield | `DanielArpadfalvi/Cogfield` | [ ] |

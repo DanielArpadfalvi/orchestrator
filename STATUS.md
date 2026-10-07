@@ -1,5 +1,13 @@
 # Állapotnapló
 
+## 2026-10-07 délután – teszt/javítás/optimalizálás a 4 meglévő appon (új játék szünetel)
+
+- Tokentakarékos mód: egy agent egyszerre, Sonnet, rövid riportok; Tinytrack/Mortarwall szünetel (Tinytrack M0 félkész, commitolatlan a mappájában).
+- **Blastyard:** pass kész, main `8ac43c1` (hiba nem volt; HUD per-frame allokáció és safe-area olvasás optimalizálva).
+- **Swaplight:** pass a `qa-pass-1007` ágon (`aa0d0ad`, worktree `swaplight-qa`): worker-korlát, actions v5, nyelvfüggő teszt javítva, `hasDangerColumn`. Merge a main-re a tulajdonos/Swaplight-session döntése.
+- **Craterpult:** pass a `qa-pass-1007` ágon (worktree `Craterpult-qa`): csak worker-korlát + actions v5; minden teszt zöld (288 unit, 40 e2e).
+- **Pathlings:** a saját sessionje viszi (tulajdonosi kérés).
+
 ## 2026-10-07 – napi cél: lista folytatása, következő játékok lokálisan a limitig
 
 - **Blastyard:** M0–M1 kész, M2 T2.1–T2.3 kész (`e255370`, játszható). T2.4 eszközteszt-előkészítés (Pages-workflow, érintés-teszter, 4 sarkos mód) fut; utána tulajdonosi eszközteszt. Közben M3 megy tovább.

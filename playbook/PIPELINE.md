@@ -34,6 +34,7 @@ Haladási sorrend: mag-szimuláció (determinisztikus, tesztelt) → játszható
 - Következő tétel a listáról.
 
 ## Szabályok
+- **CPU-terhelés (tulajdonosi kérés):** a tulajdonos gépe ne menjen 100%-on. Egyszerre legfeljebb **egy** buildet/tesztet futtató agent (tervező/doksi agent mellette mehet). Playwright `--workers=2`, Vitest `--maxWorkers=2` (a projekt-configokban is így legyen alapértelmezett, CI-ben nem), nincs `--repeat-each`, teljes e2e verifikációnként max. egyszer; az agent állítsa le az általa indított szervereket/böngészőket.
 - Agentnek mindig: olvassa el a projekt `CLAUDE.md`-jét, ne commitoljon (ha nem kérted), ne futtasson `playwright install`-t, egyedi Playwright-portot használjon, ha más agent is futhat.
 - „Flake” nem gyökérok; hibát nem tesztkikapcsolással javítunk.
 - Ha valami a tulajdonosra vár (repo, secret, fiók), azt a dashboard `needsInput` mezőjébe és a `STATUS.md`-be írd, és dolgozz tovább azon, ami nem függ tőle.

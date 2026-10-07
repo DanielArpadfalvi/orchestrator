@@ -1,5 +1,11 @@
 # Állapotnapló
 
+## 2026-10-07 – napi cél: lista folytatása, következő játékok lokálisan a limitig
+
+- **Blastyard:** M0–M1 kész, M2 T2.1–T2.3 kész (`e255370`, játszható). T2.4 eszközteszt-előkészítés (Pages-workflow, érintés-teszter, 4 sarkos mód) fut; utána tulajdonosi eszközteszt. Közben M3 megy tovább.
+- **Tinytrack (#5)** és **Mortarwall (#6):** GitHub-repó még nincs → lokális mappa (`C:\Claude projects\<név>`), F1 tervezés párhuzamosan fut. Tulajdonos: repók létrehozása, ha ideje engedi.
+- Pathlings / Craterpult / Swaplight: saját sessionök (a tulajdonos manuálisan folytatja).
+
 ## Lokális orkesztrátor indult (2026-10-06 este)
 
 - A felhős Pathlings- és Craterpult-sessionök leálltak; **mindkettőt ez a lokális orkesztrátor-session viszi tovább párhuzamosan** (háttér-agentekkel, külön Playwright-portokon: Pathlings 4391, Craterpult 4411). Lokális klónok: `C:\Claude projects\Pathlings`, `C:\Claude projects\Craterpult`.
